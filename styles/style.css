@@ -79,6 +79,47 @@
   margin-top: 80px;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.two-columns__brief {
+  width: 175px;
+  align-content: space-between;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.two-columns__main-text {
+  min-width: 784px;
+  width: 80%;
+  space-between: 30px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
 .logo {
   width: 183px;
   height: 32px;
