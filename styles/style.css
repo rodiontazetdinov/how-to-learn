@@ -51,6 +51,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -74,14 +75,6 @@
   background-color: #2f80ed;
   background-size: cover;
   z-index: 0;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .description {
@@ -117,11 +110,9 @@
   width: 80%;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .two-columns__paragraph {
-
   line-height: 34px;
   font-weight: normal;
   font-size: 24px;
@@ -158,12 +149,22 @@
 
 .digits {
   margin-top: 0px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title {
   width: 60%;
   margin: 0px auto 20px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-title_theme_dark {
+  width: 60%;
+  margin: 90px auto 20px;
+  color: white;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -179,17 +180,35 @@
   font-weight: normal;
 }
 
+.section-subtitle_theme_dark {
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
+
 .table {
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
   justify-content: space-between;
-  margin: 0px auto 100px;
+  margin: 0px auto 0px;
 }
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .table__heading {
@@ -211,7 +230,6 @@
   position: relative;
   height: 890px;
   margin-top: 0px;
-  margin-bottom: 90px;
   background: url("/images/feynman.png") left bottom no-repeat;
   background-color: #f2f2f2;
   flex-direction:column;
@@ -243,5 +261,23 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 
+.kaufman {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  background-color:  #1f1f1f;
+  z-index: 1;
+  padding-bottom: 90px;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  z-index: -1;
+}
