@@ -17,6 +17,7 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
+
 }
 
 .header__title {
@@ -29,6 +30,8 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .header__subtitle {
@@ -42,6 +45,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .header__link {
@@ -87,7 +92,7 @@
 .two-columns {
   width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
   margin-top: 100px;
   margin-bottom: 100px;
@@ -95,23 +100,40 @@
 
 .two-columns__brief {
   width: 175px;
-  align-content: space-between;
+
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 
+
+}
+
+.two-columns__brief-title {
+  margin: 0;
+  padding: 0;
 }
 
 .two-columns__main-text {
+  display: flex;
   min-width: 784px;
   width: 80%;
-  space-between: 30px;
+
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .two-columns__paragraph {
+
   line-height: 34px;
   font-weight: normal;
   font-size: 24px;
+  margin: 0px 0px 30px 0px;
+  padding: 0;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin: 0px;
 }
 
 .two-columns__span-accent {
@@ -136,5 +158,13 @@
 .logo__place_footer {
   position: absolute;
   z-index: 2;
+}
+
+.section-title {
+
+}
+
+.section-subtitle {
+
 }
 
