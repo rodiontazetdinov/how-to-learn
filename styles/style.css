@@ -188,6 +188,7 @@
   justify-content: space-between;
   margin: 0px auto 0px;
   list-style-type: none;
+  padding-left: 0px;
 }
 
 .table__cell {
@@ -283,7 +284,6 @@
 }
 
 .footer__columns {
-
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -309,7 +309,6 @@
 }
 
 .footer__author {
-
   margin: 18px 0px;
   line-height: 25px;
   font-size: 18px;
